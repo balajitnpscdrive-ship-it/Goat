@@ -1,11 +1,28 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Don Bosco Polytechnic College - House Point System
 
-  <h1>Built with AI Studio</h2>
+A high-performance, responsive web application for managing House Points at DBPC. Featuring automated weekly resets, championship tracking, and merit certificate generation.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Key Features
+- **Departmental Access**: Secure login for each department with unique security keys.
+- **Automated Resets**: Weekly points reset every Wednesday at 10:00 AM automatically.
+- **Topper Gallery**: Real-time identification of department and college-wide toppers.
+- **Certificate System**: Generate high-resolution PDF/Printable merit certificates for winners.
+- **CSV Import**: Admin can bulk-upload student name lists for easy selection.
+- **Persistence**: All data is saved securely in the browser's local storage.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🛠 Deployment to GitHub Pages
+1. Push this code to a new GitHub Repository.
+2. Go to **Settings > Pages**.
+3. Under **Build and deployment**, set Source to **GitHub Actions** or use the **Static** method if serving the raw `index.html`.
+4. If using a build step, configure your workflow to run `npm run build` and deploy the `dist` folder.
 
-</div>
+## 🔐 Security Keys
+- **Admin**: `Admin@DBPC`
+- **Departments**: `{Dept}@DBPC` (e.g., `Mech@DBPC`, `CSE@DBPC`)
+
+## 🎨 Tech Stack
+- React 19 (ESM)
+- Tailwind CSS
+- Lucide Icons & Confetti API
+- LocalStorage API
